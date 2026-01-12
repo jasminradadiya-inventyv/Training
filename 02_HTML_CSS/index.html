@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="left">
+            <div class="logo">
+                <img src="logo.jpeg" alt="">
+            </div>
+            <div class="desc">
+                <h2>ABC INDIA PVT. LTD.</h2>
+                <p>Your trusted partner in innovation and excellence.</p>
+                <p>Empowering businesses with cutting-edge solutions.</p>
+            </div>
+        </section>
+        <section class="right">
+            <div class="form">
+
+                <input type="radio" name="tab" id="login-tab" checked>
+                <input type="radio" name="tab" id="register-tab">
+
+                <div class="tabs">
+                    <label for="login-tab" class="tab">Login</label>
+                    <label for="register-tab" class="tab">Register</label>
+                </div>
+
+                <div class="content login">                    
+                    <form action="#loginUser" class="loginForm">
+                        <label>Username</label>
+                        <input type="text" placeholder="Enter Username" title="Username" required>
+
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter Password" title="Password" required>
+
+                        <a href="#forgetPassword" title="Forget Password">Forget password?</a>
+
+                        <button type="submit" title="Submit">Login</button>
+                    </form>
+                </div>
+
+                <div class="content register">                    
+                    <form action="#registerUser" class="registerForm">
+                        <label>Username</label>
+                        <input type="text" placeholder="Username" title="Username" required>
+
+                        <label>Email</label>
+                        <input type="email" placeholder="Email" title="Email" required>
+
+                        <label>Password</label>
+                        <input type="password" placeholder="Password" title="Password" required>
+
+                        <a href="" title="Login">Already have an account? Login</a>
+
+                        <button type="submit" title="Submit">Register</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
