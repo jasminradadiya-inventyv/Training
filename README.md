@@ -20,7 +20,8 @@ Training/
 │   ├── _2_task_control_statements/
 │   ├── _3_structs_and_related_data/
 │   ├── _4_serde_json/
-│   └── _6_enums_package_crates_modules/
+│   ├── _5_functions_ownership_borrowing_and_references/
+│   └── _6_static_variables/
 └── README.md
 ```
 
@@ -71,7 +72,12 @@ This directory contains Rust programming tasks focusing on core language concept
     *   Showcases how to use **Serde** and **serde_json** for serializing and deserializing data.
     *   Includes examples of converting structs to JSON strings, parsing JSON strings back to structs, and handling raw JSON literals.
 
-*   **_6_enums_package_crates_modules**:
-    *   Explores **concurrency primitives** in Rust: `Mutex` and `RwLock`.
+*   **_5_functions_ownership_borrowing_and_references**:
+    *   Covers fundamental memory management concepts: **Ownership**, **Borrowing** (mutable and immutable), and **References**.
+    *   Demonstrates struct methods with different `self` receivers (`&self`, `&mut self`).
+    *   Includes examples of modifying data via mutable references and visualizing memory addresses.
+
+*   **_6_static_variables**:
+    *   Explores **static variables** and **concurrency primitives** in Rust: `Mutex` and `RwLock`.
     *   Demonstrates how to safely manage global state across threads/calls using `std::sync` primitives.
     *   Uses **Enums** to model different request types in a simulated system.

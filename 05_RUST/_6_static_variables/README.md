@@ -1,4 +1,4 @@
-# Rust Enums, Modules, and Concurrency Primitives
+# Rust Static Variables and Concurrency Primitives
 
 This project demonstrates the organization of Rust code into modules and the use of **Enums** alongside concurrency primitives: **Mutex** and **RwLock**.
 
