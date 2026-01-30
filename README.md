@@ -18,7 +18,9 @@ Training/
 │   └── TASK_3/
 ├── 05_RUST/
 │   ├── _2_task_control_statements/
-│   └── _3_structs_and_related_data/
+│   ├── _3_structs_and_related_data/
+│   ├── _4_serde_json/
+│   └── _6_enums_package_crates_modules/
 └── README.md
 ```
 
@@ -64,3 +66,12 @@ This directory contains Rust programming tasks focusing on core language concept
     *   Focuses on defining and using **Structs** to model data (e.g., a `Project` entity).
     *   Implements **methods** (getters and setters) for encapsulation.
     *   Demonstrates **associated functions** (static methods) and object instantiation.
+
+*   **_4_serde_json**:
+    *   Showcases how to use **Serde** and **serde_json** for serializing and deserializing data.
+    *   Includes examples of converting structs to JSON strings, parsing JSON strings back to structs, and handling raw JSON literals.
+
+*   **_6_enums_package_crates_modules**:
+    *   Explores **concurrency primitives** in Rust: `Mutex` and `RwLock`.
+    *   Demonstrates how to safely manage global state across threads/calls using `std::sync` primitives.
+    *   Uses **Enums** to model different request types in a simulated system.
