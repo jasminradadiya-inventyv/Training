@@ -21,7 +21,8 @@ Training/
 │   ├── _3_structs_and_related_data/
 │   ├── _4_serde_json/
 │   ├── _5_functions_ownership_borrowing_and_references/
-│   └── _6_static_variables/
+│   ├── _6_static_variables/
+│   └── _7_packages_crates_modules/
 └── README.md
 ```
 
@@ -81,3 +82,8 @@ This directory contains Rust programming tasks focusing on core language concept
     *   Explores **static variables** and **concurrency primitives** in Rust: `Mutex` and `RwLock`.
     *   Demonstrates how to safely manage global state across threads/calls using `std::sync` primitives.
     *   Uses **Enums** to model different request types in a simulated system.
+
+*   **_7_packages_crates_modules**:
+    *   Demonstrates Rust's module system: **Packages**, **Crates**, and **Modules**.
+    *   Shows how to organize code by splitting it into multiple files and directories (`src/all_utils`).
+    *   Consolidates previous concepts (structs, serde, functions) into a modular library structure.
