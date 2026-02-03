@@ -22,7 +22,8 @@ Training/
 │   ├── _4_serde_json/
 │   ├── _5_functions_ownership_borrowing_and_references/
 │   ├── _6_static_variables/
-│   └── _7_packages_crates_modules/
+│   ├── _7_packages_crates_modules/
+│   └── _8_hashmap_hashset/
 └── README.md
 ```
 
@@ -87,3 +88,8 @@ This directory contains Rust programming tasks focusing on core language concept
     *   Demonstrates Rust's module system: **Packages**, **Crates**, and **Modules**.
     *   Shows how to organize code by splitting it into multiple files and directories (`src/all_utils`).
     *   Consolidates previous concepts (structs, serde, functions) into a modular library structure.
+
+*   **_8_hashmap_hashset**:
+    *   Demonstrates the usage of Rust's standard collection types: **HashMap** and **HashSet**.
+    *   Showcases basic operations: keys, values, insertion, removal, and filtering (`retain`).
+    *   Uses custom structs with derived `Eq` and `Hash` traits as values/keys.
