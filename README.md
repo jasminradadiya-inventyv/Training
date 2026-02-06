@@ -23,7 +23,8 @@ Training/
 │   ├── _5_functions_ownership_borrowing_and_references/
 │   ├── _6_static_variables/
 │   ├── _7_packages_crates_modules/
-│   └── _8_hashmap_hashset/
+│   ├── _8_hashmap_hashset/
+│   └── _11_generic_trait_assignment/
 └── README.md
 ```
 
@@ -93,3 +94,8 @@ This directory contains Rust programming tasks focusing on core language concept
     *   Demonstrates the usage of Rust's standard collection types: **HashMap** and **HashSet**.
     *   Showcases basic operations: keys, values, insertion, removal, and filtering (`retain`).
     *   Uses custom structs with derived `Eq` and `Hash` traits as values/keys.
+
+*   **_11_generic_trait_assignment**:
+    *   Demonstrates the power of **Generics** (`Inventory<T>`) and **Traits** (`DisplayItem`) for writing reusable code.
+    *   Implements a generic inventory system that can handle any item type implementing specific traits.
+    *   Features custom error handling with `InventoryError` enum implementing `Display` trait.
