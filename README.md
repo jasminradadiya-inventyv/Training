@@ -97,5 +97,8 @@ This directory contains Rust programming tasks focusing on core language concept
 
 *   **_11_generic_trait_assignment**:
     *   Demonstrates the power of **Generics** (`Inventory<T>`) and **Traits** (`DisplayItem`) for writing reusable code.
-    *   Implements a generic inventory system that can handle any item type implementing specific traits.
+    *   Implements a generic inventory system that can handle any item type implementing `DisplayItem` and `Clone`.
     *   Features custom error handling with `InventoryError` enum implementing `Display` trait.
+    *   Uses **Closures** to define custom formatting logic within the `display_all` method.
+    *   Uses **Lifetimes** to manage the borrowing of data between the main function and the inventory struct.
+    

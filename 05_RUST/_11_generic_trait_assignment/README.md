@@ -7,6 +7,7 @@ This project builds a generic **Inventory System** to demonstrate the power of *
 The application defines a generic `Inventory<T>` that can store any type of item, provided the item implements specific traits (like `Clone` and `DisplayItem`). It showcases:
 *   **Generics**: Defining structs and implementation blocks that work with any appropriate type.
 *   **Traits**: Defining shared behavior (`DisplayItem`) and implementing standard traits (`Display` for errors).
+    *   Note: The `Inventory` implementation requires items to implement `Clone` for retrieval (`cloned()`).
 *   **Error Handling**: Using a custom `InventoryError` enum to manage failure states.
 
 ## Key Concepts
