@@ -26,6 +26,7 @@ Training/
 │   ├── _8_hashmap_hashset/
 │   ├── _11_generic_trait_assignment/
 │   ├── _13_multithread/
+│   ├── _14_http_server/
 └── README.md
 ```
 
@@ -105,3 +106,8 @@ This directory contains Rust programming tasks focusing on core language concept
     *   Demonstrates advanced concurrency patterns using **Threads**, **Shared State** (`Arc`, `RwLock`), and **Atomic Operations`.
     *   Simulates a real-time system with multiple producers, consumers, and background cleaners operating on a shared dataset.
     *   Showcases thread synchronization and safe data access in a multi-threaded environment.
+
+*   **_14_http_server**:
+    *   Demonstrates building a **RESTful API** using the **Axum** web framework and **Tokio** runtime.
+    *   Implements a CRUD system for employee records with **JSON** file persistence.
+    *   Uses `Arc<RwLock<T>>` for thread-safe state management across concurrent requests.
